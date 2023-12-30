@@ -1,4 +1,4 @@
-import 'package:kontak_app/model/kontak.dart';
+import 'package:kontak_app/model/kontak_page.dart';
 import 'package:flutter/material.dart';
 
 enum FormMode { create, edit }

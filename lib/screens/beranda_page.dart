@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:kontak_app/main.dart';
 import 'package:kontak_app/screens/list.dart';
-import 'package:kontak_app/screens/bookmark_page.dart';
-import 'package:kontak_app/screens/movie_page.dart';
-import 'package:kontak_app/screens/todo_page.dart';
+import 'package:kontak_app/model/bookmark_page.dart';
+import 'package:kontak_app/model/movie_page.dart';
+import 'package:kontak_app/model/todo_page.dart';
 
 class BerandaPage extends StatelessWidget {
   const BerandaPage({super.key});

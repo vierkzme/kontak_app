@@ -1,5 +1,5 @@
-import 'package:kontak_app/screens/create.dart';
-import 'package:kontak_app/model/kontak.dart';
+import 'package:kontak_app/form/kontak_form_page.dart';
+import 'package:kontak_app/model/kontak_page.dart';
 import 'package:flutter/material.dart';
 
 class ListScreen extends StatefulWidget {
