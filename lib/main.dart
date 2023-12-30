@@ -1,4 +1,4 @@
-import 'package:kontak_app/screens/login_page.dart';
+import 'package:kontak_app/home/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

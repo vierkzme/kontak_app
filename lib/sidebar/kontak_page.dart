@@ -1,15 +1,26 @@
 import 'package:kontak_app/form/kontak_form_page.dart';
-import 'package:kontak_app/model/kontak_page.dart';
 import 'package:flutter/material.dart';
 
-class ListScreen extends StatefulWidget {
-  const ListScreen({super.key});
+class Kontak {
+  String nama;
+  String nomor;
+  String email;
 
-  @override
-  State<ListScreen> createState() => _ListScreenState();
+  Kontak({
+    required this.nama,
+    required this.nomor,
+    required this.email,
+  });
 }
 
-class _ListScreenState extends State<ListScreen> {
+class KontakPage extends StatefulWidget {
+  const KontakPage({Key? key}) : super(key: key);
+
+  @override
+  State<KontakPage> createState() => _KontakPageState();
+}
+
+class _KontakPageState extends State<KontakPage> {
   final List<Kontak> _listKontak = [];
 
   @override

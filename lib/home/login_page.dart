@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kontak_app/screens/beranda_page.dart';
+import 'package:kontak_app/home/beranda_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

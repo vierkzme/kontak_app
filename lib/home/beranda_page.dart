@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:kontak_app/main.dart';
-import 'package:kontak_app/screens/list.dart';
-import 'package:kontak_app/model/bookmark_page.dart';
-import 'package:kontak_app/model/movie_page.dart';
-import 'package:kontak_app/model/todo_page.dart';
+import 'package:kontak_app/sidebar/kontak_page.dart';
+import 'package:kontak_app/sidebar/bookmark_page.dart';
+import 'package:kontak_app/sidebar/movie_page.dart';
+import 'package:kontak_app/sidebar/todo_page.dart';
 
 class BerandaPage extends StatelessWidget {
   const BerandaPage({super.key});
@@ -50,7 +50,7 @@ class BerandaPage extends StatelessWidget {
                 Navigator.pop(context);
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const ListScreen()),
+                  MaterialPageRoute(builder: (context) => const KontakPage()),
                 );
               },
             ),
